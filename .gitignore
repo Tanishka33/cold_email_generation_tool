@@ -1,0 +1,16 @@
+# Ignore environment variables
+app/.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore local database/vectorstore
+vectorstore/
+*.sqlite3
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
