@@ -14,3 +14,7 @@ vectorstore/
 
 # Ignore VSCode settings
 .vscode/
+
+# Ignore Jupyter notebooks you don’t want to push
+email_generator.ipynb
+tutorial_groq.ipynb
