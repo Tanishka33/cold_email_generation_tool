@@ -4,4 +4,8 @@ langchain-community
 langchain-openai
 langchain-groq
 python-dotenv
-chromadb
+# Pin Chromadb to a compatible version for Streamlit Cloud and Python 3.11
+chromadb==0.4.24
+# Required native index and SQLite binary for Chromadb 0.4.x in many linux envs
+chroma-hnswlib==0.7.3
+pysqlite3-binary==0.5.3.post3
