@@ -5,3 +5,6 @@ langchain-openai
 langchain-groq
 python-dotenv
 # Removed Chromadb to avoid sqlite/python version issues on Streamlit Cloud
+# Add HTML parsing dependencies used by WebBaseLoader
+beautifulsoup4
+lxml
